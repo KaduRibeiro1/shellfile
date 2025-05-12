@@ -8,7 +8,7 @@ ARQUIVO_LOG="log_$(date '+%Y-%m-%d_%H-%M-%S').txt"
 BUCKET_S3="s3://meu-bucket-de-log"
 
 # Cria diretório se não existir
-mkdir -p $DIR_LOG
+sudo mkdir -p $DIR_LOG
 
 # Coleta informações do sistema
 {
